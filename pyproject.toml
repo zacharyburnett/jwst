@@ -115,6 +115,7 @@ requires = [
 build-backend = "setuptools.build_meta"
 
 [tool.cibuildwheel]
+test-command = "python -c 'from jwst.lib import winclip; from jwst.cube_build import cube_match_internal, cube_match_sky_pointcloud, cube_match_sky_driz, blot_median; from jwst.straylight import calc_xart'"
 # explicitly skip free-threaded builds
 skip = ["cp314t-*"]
 
