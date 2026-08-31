@@ -6,6 +6,7 @@
   <img src="docs/_static/jwst_logo.png" alt="JWST Logo" width="15%" style="margin-right: auto;"/>
 </a>
 
+
 # James Webb Space Telescope Calibration Pipeline
 
 [![DOI](https://zenodo.org/badge/60551519.svg)](https://zenodo.org/badge/latestdoi/60551519)
